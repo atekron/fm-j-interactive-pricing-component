@@ -1,0 +1,23 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+@import "./base/resets";
+@import "./base/typography";
+
+@import "./layout/container";
+@import "./layout/header";
+@import "./layout/card";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  background-color: $very-pale-blue;
+  background-image: url(/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 50%;
+}

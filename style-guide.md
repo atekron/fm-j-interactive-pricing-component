@@ -11,20 +11,20 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft Cyan (Full Slider Bar): hsl(174, 77%, 80%)
-- Strong Cyan (Slider Backround): hsl(174, 86%, 45%)
-- Light Grayish Red (Discount Background): hsl(14, 92%, 95%)
-- Light Red (Discount Text): hsl(15, 100%, 70%)
-- Pale Blue (CTA Text): hsl(226, 100%, 87%)
+- soft cyan (full slider bar): hsl(174, 77%, 80%)
+- strong cyan (slider backround): hsl(174, 86%, 45%)
+- light grayish red (discount background): hsl(14, 92%, 95%)
+- light red (discount text): hsl(15, 100%, 70%)
+- pale blue (cta text): hsl(226, 100%, 87%)
 
-### Neutral
+### neutral
 
-- White (Pricing Component Background): hsl (0, 0%, 100%)
-- Very Pale Blue (Main Background): hsl(230, 100%, 99%)
-- Light Grayish Blue (Empty Slider Bar): hsl(224, 65%, 95%)
-- Light Grayish Blue (Toggle Background): hsl(223, 50%, 87%)
-- Grayish Blue (Text): hsl(225, 20%, 60%)
-- Dark Desaturated Blue (Text & CTA Background): hsl(227, 35%, 25%)
+- white (pricing component background): hsl (0, 0%, 100%)
+- very pale blue (main background): hsl(230, 100%, 99%)
+- light grayish blue (empty slider bar): hsl(224, 65%, 95%)
+- light grayish blue (toggle background): hsl(223, 50%, 87%)
+- grayish blue (text): hsl(225, 20%, 60%)
+- dark desaturated blue (text & cta background): hsl(227, 35%, 25%)
 
 ## Typography
 

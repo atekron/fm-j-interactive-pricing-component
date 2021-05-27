@@ -1,0 +1,32 @@
+.header {
+  margin: 3rem auto;
+  background-image: url("/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+
+  &__title {
+    font-size: 2rem;
+    @media screen and (max-width: 700px) {
+      font-size: 1.8rem;
+    }
+    font-weight: 800;
+    color: $dark-desaturated-blue;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+
+  &__text {
+    color: $grayish-blue;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
+    span {
+      padding: 0.3rem;
+    }
+  }
+}

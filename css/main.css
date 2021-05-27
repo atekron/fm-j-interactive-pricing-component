@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  margin: 3rem auto;
+  background-image: url("/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #293356;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .header__title {
+    font-size: 1.8rem;
+  }
+}
+
+.header__text {
+  color: #858fad;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .header__text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.header__text span {
+  padding: 0.3rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 40rem;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 85%;
+  }
+}
+
+.card__footer {
+  border-top: 0.1rem solid #eaeefb;
+  padding: 2rem;
+  color: #858fad;
+  font-size: 15px;
+}
+
+.card__features p {
+  margin-bottom: 0.7rem;
+}
+
+.card__features p span {
+  margin-right: 1rem;
+}
+
+.card__btn {
+  margin-top: 1.5rem;
+  border: none;
+  background-color: #293356;
+  color: #bdccff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.2rem 3rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  background-color: #fafbff;
+  background-image: url(/images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 50%;
+}
+/*# sourceMappingURL=main.css.map */

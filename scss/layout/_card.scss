@@ -1,0 +1,41 @@
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 40rem;
+  @media screen and (max-width: 700px) {
+    width: 85%;
+  }
+
+  &__footer {
+    border-top: 0.1rem solid $light-grayish-blue;
+    padding: 2rem;
+    color: $grayish-blue;
+    font-size: 15px;
+  }
+
+  &__features {
+    p {
+      margin-bottom: 0.7rem;
+      span {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__btn {
+    margin-top: 1.5rem;
+    border: none;
+    background-color: $dark-desaturated-blue;
+    color: $pale-blue;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}

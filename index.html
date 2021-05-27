@@ -1,39 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive pricing component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Frontend Mentor | Interactive pricing component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Simple, traffic-based pricing</h1>
+        <p class="header__text">
+          <span>Sign-up for our 30-day trial.</span>
+          <span>No credit card required.</span>
+        </p>
+      </header>
 
-  Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required. 
+      <div class="card">
+        <div class="card__pricing">
+          <p class="card__pageviews"><span>100k</span> Pageviews</p>
+          <p class="card__per-month">$ <span>16</span> /month</p>
+          <div class="card__slider"></div>
+        </div>
+        <div class="card__billing">
+          <p class="card__monthly">Monthly Billing</p>
+          <div class="card__toggle-outer">
+            <div class="carg__toggle-inner"></div>
+          </div>
+          <p class="card__yearly">Yearly Billing</p>
+          <p class="card__discount">25% discount</p>
+        </div>
+        <div class="card__footer">
+          <div class="card__features">
+            <p>
+              <span><img src="/images/icon-check.svg" alt="check icon" /></span>
+              Unlimited websites
+            </p>
+            <p>
+              <span><img src="/images/icon-check.svg" alt="check icon" /></span
+              >100% data ownership
+            </p>
+            <p>
+              <span><img src="/images/icon-check.svg" alt="check icon" /></span
+              >Email reports
+            </p>
+          </div>
+          <button class="card__btn">Start my trial</button>
+        </div>
+      </div>
+    </div>
 
-  Pageviews
-  $ /month
-
-  Monthly Billing
-  Yearly Billing 25% discount
-
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/atekron">Michael Kret</a>.
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
 </html>
