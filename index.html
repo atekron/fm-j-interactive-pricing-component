@@ -36,19 +36,31 @@
       </header>
 
       <div class="card">
-        <div class="card__pricing">
-          <p class="card__pageviews"><span>100k</span> Pageviews</p>
-          <p class="card__per-month">$ <span>16</span> /month</p>
-          <div class="card__slider"></div>
-        </div>
-        <div class="card__billing">
-          <p class="card__monthly">Monthly Billing</p>
-          <div class="card__toggle-outer">
-            <div class="carg__toggle-inner"></div>
+        <form class="card__form">
+          <div class="card__pricing">
+            <p class="card__pageviews"><span>100k</span> Pageviews</p>
+            <input
+              type="range"
+              name="card__range"
+              class="card__range"
+              min="1"
+              max="5"
+              value="3"
+            />
+            <p class="card__per-month"><span>$16.00</span> / month</p>
+            <div class="card__slider"></div>
           </div>
-          <p class="card__yearly">Yearly Billing</p>
-          <p class="card__discount">25% discount</p>
-        </div>
+          <div class="card__billing">
+            <p class="card__monthly">Monthly Billing</p>
+            <input
+              type="checkbox"
+              name="card__checkbox"
+              class="card__checkbox"
+            />
+            <p class="card__yearly">Yearly Billing</p>
+            <p class="card__discount">25% <span>discount</span></p>
+          </div>
+        </form>
         <div class="card__footer">
           <div class="card__features">
             <p>

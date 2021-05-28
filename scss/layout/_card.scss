@@ -8,6 +8,62 @@
     width: 85%;
   }
 
+  &__pageviews {
+    color: $grayish-blue;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    text-transform: uppercase;
+  }
+
+  // &__range {
+  //   width: 90%;
+  //   margin: 1rem;
+  //   margin-bottom: 2rem;
+  //   cursor: pointer;
+  // }
+
+  &__per-month {
+    color: $grayish-blue;
+    span {
+      color: $dark-desaturated-blue;
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+  }
+
+  &__billing {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 2rem;
+    color: $grayish-blue;
+    font-size: 0.9rem;
+
+    p {
+      margin: 0.5rem;
+    }
+  }
+
+  &__checkbox {
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+
+  &__discount {
+    background-color: $light-grayish-red;
+    color: $light-red;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    span {
+      @media screen and (max-width: 700px) {
+        display: none;
+      }
+    }
+  }
+
   &__footer {
     border-top: 0.1rem solid $light-grayish-blue;
     padding: 2rem;

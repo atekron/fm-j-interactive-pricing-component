@@ -8,6 +8,8 @@
 @import "./layout/header";
 @import "./layout/card";
 
+@import "./components/range";
+
 body {
   min-height: 100vh;
   display: flex;
