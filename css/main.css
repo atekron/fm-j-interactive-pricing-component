@@ -147,6 +147,26 @@
   font-size: 15px;
 }
 
+@media screen and (min-width: 700px) {
+  .card__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card__features {
+    text-align: left;
+  }
+}
+
 .card__features p {
   margin-bottom: 0.7rem;
 }
@@ -169,6 +189,46 @@
 
 .card__btn:hover {
   color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .card__btn {
+    margin: auto 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .card__pricing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card__pageviews {
+    margin-right: 10rem;
+  }
+  .card__range {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .card__per-month {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 2rem;
+  }
 }
 
 .card__range {
