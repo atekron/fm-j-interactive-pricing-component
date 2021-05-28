@@ -127,11 +127,6 @@
   margin: 0.5rem;
 }
 
-.card__checkbox {
-  margin: 0.5rem;
-  cursor: pointer;
-}
-
 .card__discount {
   background-color: #feece7;
   color: #ff8c66;
@@ -286,6 +281,60 @@
 
 .card__range:focus::-ms-fill-upper {
   background: #a5f3eb;
+}
+
+.card__checkbox {
+  position: relative;
+  display: inline-block;
+  width: 3.6rem;
+  height: 1.9rem;
+  margin: 0.5rem;
+}
+
+.card__checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.card__checkbox input:checked + .card__checkbox__slider {
+  background-color: #293356;
+}
+
+.card__checkbox input:focus + .card__checkbox__slider {
+  -webkit-box-shadow: 0 0 1px #293356;
+          box-shadow: 0 0 1px #293356;
+}
+
+.card__checkbox input:checked + .card__checkbox__slider:before {
+  -webkit-transform: translateX(1.2rem);
+          transform: translateX(1.2rem);
+}
+
+.card__checkbox__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a5f3eb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 1rem;
+}
+
+.card__checkbox__slider::before {
+  position: absolute;
+  content: "";
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
 }
 
 body {
