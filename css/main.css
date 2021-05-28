@@ -117,7 +117,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem;
-  margin: 1rem 2rem;
+  margin: 1rem;
+  margin-right: 0;
   color: #858fad;
   font-size: 0.9rem;
 }
@@ -178,12 +179,13 @@
 .card__range {
   width: 90%;
   margin: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   cursor: pointer;
   -webkit-appearance: none;
   background: transparent;
   height: 0.7rem;
-  background: #a5f3eb;
+  background: -webkit-gradient(linear, left top, right top, from(#10d5c2), color-stop(50%, #10d5c2), color-stop(50%, #a5f3eb), to(#a5f3eb));
+  background: linear-gradient(to right, #10d5c2 0%, #10d5c2 50%, #a5f3eb 50%, #a5f3eb 100%);
   border-radius: 0.5rem;
 }
 
@@ -197,7 +199,6 @@
   background-image: url("/images/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -1.25rem;
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
@@ -233,9 +234,6 @@
 
 .card__range::-webkit-slider-runnable-track {
   -webkit-appearance: none;
-  height: 0.7rem;
-  background: #a5f3eb;
-  border-radius: 0.5rem;
 }
 
 .card__range::-moz-range-track {

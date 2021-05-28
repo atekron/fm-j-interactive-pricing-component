@@ -3,12 +3,18 @@
 .card__range {
   width: 90%;
   margin: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   cursor: pointer;
   -webkit-appearance: none;
   background: transparent;
   height: 0.7rem;
-  background: $soft-cyan;
+  background: linear-gradient(
+    to right,
+    $strong-cyan 0%,
+    $strong-cyan 50%,
+    $soft-cyan 50%,
+    $soft-cyan 100%
+  );
   border-radius: 0.5rem;
 
   &:focus {
@@ -22,7 +28,7 @@
     background-image: url("/images/icon-slider.svg");
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -1.25rem;
+    // margin-top: -0rem;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -60,10 +66,14 @@
   //styling track
   &::-webkit-slider-runnable-track {
     -webkit-appearance: none;
-    height: 0.7rem;
-    background: $soft-cyan;
-    border-radius: 0.5rem;
+    // height: 0.7rem;
+    // background: $soft-cyan;
+    // border-radius: 0.5rem;
   }
+
+  // ::-webkit-progress-value {
+  //   background-color: orange;
+  // }
 
   // &:focus::-webkit-slider-runnable-track {
   //   background: $soft-cyan;

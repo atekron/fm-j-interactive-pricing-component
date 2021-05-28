@@ -17,13 +17,6 @@
     text-transform: uppercase;
   }
 
-  // &__range {
-  //   width: 90%;
-  //   margin: 1rem;
-  //   margin-bottom: 2rem;
-  //   cursor: pointer;
-  // }
-
   &__per-month {
     color: $grayish-blue;
     span {
@@ -38,7 +31,8 @@
     justify-content: flex-end;
     align-items: center;
     padding: 1rem;
-    margin: 1rem 2rem;
+    margin: 1rem;
+    margin-right: 0;
     color: $grayish-blue;
     font-size: 0.9rem;
 
