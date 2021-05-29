@@ -224,6 +224,7 @@
             order: 3;
   }
   .card__per-month {
+    margin-right: 10rem;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -262,6 +263,10 @@
           box-shadow: 0 0.5rem 2.5rem #858fad;
 }
 
+.card__range::-webkit-slider-thumb:hover, .card__range::-webkit-slider-thumb:active {
+  background-color: #858fad;
+}
+
 .card__range::-moz-range-thumb {
   background-color: #10d5c2;
   background-image: url("/images/icon-slider.svg");
@@ -273,6 +278,10 @@
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 0.5rem 2.5rem #858fad;
+}
+
+.card__range::-moz-range-thumb:hover, .card__range::-moz-range-thumb:active {
+  background-color: #858fad;
 }
 
 .card__range::-ms-thumb {

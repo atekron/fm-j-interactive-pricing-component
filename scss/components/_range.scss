@@ -25,6 +25,10 @@
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: $strong-cyan;
+    &:hover,
+    &:active {
+      background-color: $grayish-blue;
+    }
     background-image: url("/images/icon-slider.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -38,6 +42,10 @@
 
   &::-moz-range-thumb {
     background-color: $strong-cyan;
+    &:hover,
+    &:active {
+      background-color: $grayish-blue;
+    }
     background-image: url("/images/icon-slider.svg");
     background-repeat: no-repeat;
     background-position: center;
