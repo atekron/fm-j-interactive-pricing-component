@@ -36,12 +36,13 @@
       </header>
 
       <div class="card">
-        <form class="card__form">
+        <div class="card__form">
           <div class="card__pricing">
             <p class="card__pageviews"><span>100k</span> Pageviews</p>
             <input
               type="range"
               name="card__range"
+              aria-label="range input"
               class="card__range"
               oninput="handleInput()"
               min="1"
@@ -66,7 +67,7 @@
             <p class="card__yearly">Yearly Billing</p>
             <p class="card__discount">25% <span>discount</span></p>
           </div>
-        </form>
+        </div>
         <div class="card__footer">
           <div class="card__features">
             <p>
