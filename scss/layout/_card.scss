@@ -93,7 +93,7 @@
     }
     &:focus {
       outline: none;
-      box-shadow: 0 0 1.5rem 0.5rem $pale-blue;
+      box-shadow: 0 0 1.5rem 0.15rem $soft-cyan;
     }
     @media screen and (min-width: 700px) {
       margin: auto 2rem;

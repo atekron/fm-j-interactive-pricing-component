@@ -195,8 +195,8 @@
 
 .card__btn:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 1.5rem 0.5rem #bdccff;
-          box-shadow: 0 0 1.5rem 0.5rem #bdccff;
+  -webkit-box-shadow: 0 0 1.5rem 0.15rem #a5f3eb;
+          box-shadow: 0 0 1.5rem 0.15rem #a5f3eb;
 }
 
 @media screen and (min-width: 700px) {
@@ -257,8 +257,8 @@
 
 .card__range:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 1rem 0.25rem #bdccff;
-          box-shadow: 0 0 1rem 0.25rem #bdccff;
+  -webkit-box-shadow: 0 0 1rem 0.1rem #a5f3eb;
+          box-shadow: 0 0 1rem 0.1rem #a5f3eb;
 }
 
 .card__range::-webkit-slider-thumb {
@@ -385,8 +385,8 @@
 }
 
 .card__checkbox input:focus + .card__checkbox__slider {
-  -webkit-box-shadow: 0 0 1rem 0.25rem #bdccff;
-          box-shadow: 0 0 1rem 0.25rem #bdccff;
+  -webkit-box-shadow: 0 0 1rem 0.1rem #a5f3eb;
+          box-shadow: 0 0 1rem 0.1rem #a5f3eb;
 }
 
 .card__checkbox input:checked + .card__checkbox__slider:before {
