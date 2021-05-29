@@ -90,6 +90,10 @@
     &:hover {
       color: white;
     }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 1.5rem 0.5rem $pale-blue;
+    }
     @media screen and (min-width: 700px) {
       margin: auto 2rem;
     }

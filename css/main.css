@@ -191,6 +191,12 @@
   color: white;
 }
 
+.card__btn:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 1.5rem 0.5rem #bdccff;
+          box-shadow: 0 0 1.5rem 0.5rem #bdccff;
+}
+
 @media screen and (min-width: 700px) {
   .card__btn {
     margin: auto 2rem;
@@ -247,6 +253,8 @@
 
 .card__range:focus {
   outline: none;
+  -webkit-box-shadow: 0 0 1rem 0.25rem #bdccff;
+          box-shadow: 0 0 1rem 0.25rem #bdccff;
 }
 
 .card__range::-webkit-slider-thumb {
@@ -371,8 +379,8 @@
 }
 
 .card__checkbox input:focus + .card__checkbox__slider {
-  -webkit-box-shadow: 0 0 1px #293356;
-          box-shadow: 0 0 1px #293356;
+  -webkit-box-shadow: 0 0 1rem 0.25rem #bdccff;
+          box-shadow: 0 0 1rem 0.25rem #bdccff;
 }
 
 .card__checkbox input:checked + .card__checkbox__slider:before {
@@ -408,6 +416,7 @@
 
 body {
   min-height: 100vh;
+  min-width: 420px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,6 +433,6 @@ body {
   background-image: url(/images/bg-pattern.svg);
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: 100% 50%;
+  background-size: 100vw 50%;
 }
 /*# sourceMappingURL=main.css.map */

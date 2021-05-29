@@ -14,7 +14,7 @@
     }
 
     &:focus + .card__checkbox__slider {
-      box-shadow: 0 0 1px $dark-desaturated-blue;
+      box-shadow: 0 0 1rem 0.25rem $pale-blue;
     }
 
     &:checked + .card__checkbox__slider:before {
