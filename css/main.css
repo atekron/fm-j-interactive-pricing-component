@@ -185,6 +185,8 @@
   padding: 1.2rem 3rem;
   border-radius: 3rem;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .card__btn:hover {
@@ -249,6 +251,8 @@
   background: -webkit-gradient(linear, left top, right top, from(#10d5c2), color-stop(50%, #10d5c2), color-stop(50%, #a5f3eb), to(#a5f3eb));
   background: linear-gradient(to right, #10d5c2 0%, #10d5c2 50%, #a5f3eb 50%, #a5f3eb 100%);
   border-radius: 0.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .card__range:focus {
@@ -372,6 +376,8 @@
   opacity: 0;
   width: 0;
   height: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .card__checkbox input:checked + .card__checkbox__slider {
